@@ -53,4 +53,5 @@ client.on('message_read', (channel: ChatChannel, reader: ChatUser, watermark: Lo
 });
 
 await client.login('123456789@email.com', '123456' /* nice password k*/, 'random base64 device id', 'xvc value');
+// test device id cmFuZG9tIGJhc2U2NCBkZXZpY2UgaWQ=
 ```
